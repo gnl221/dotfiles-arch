@@ -15,7 +15,7 @@ if test -f /usr/share/vim-plug/vimrc.sample; then
     echo "vim-addon (vim-scripts)  installed"
 else
     echo "vim-addon (vim-scripts) not installed, installing"
-    yay -S vim-plug
+    paru -S vim-plug
 fi
 
 echo "Installed"

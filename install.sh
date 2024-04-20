@@ -11,11 +11,11 @@ done
 
 
 # Check if vim-addon installed, if not, install it automatically
-if test -f /usr/share/vim-plug/vimrc.sample; then
-    echo "vim-addon (vim-scripts)  installed"
-else
-    echo "vim-addon (vim-scripts) not installed, installing"
-    paru -S vim-plug
-fi
+#if test -f /usr/share/vim-plug/vimrc.sample; then
+ #   echo "vim-addon (vim-scripts)  installed"
+#else
+ #   echo "vim-addon (vim-scripts) not installed, installing"
+  #  paru -S vim-plug
+#fi
 
 echo "Installed"
